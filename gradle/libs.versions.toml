@@ -1,0 +1,31 @@
+[versions]
+agp = "8.2.0-alpha08"
+kotlin = "1.8.10"
+core-ktx = "1.9.0"
+appcompat = "1.6.1"
+compose-bom = "2023.06.00"
+activity-compose = "1.7.2"
+coil = "2.4.0"
+vitamin-xml = "0.4.0"
+vitamin-compose = "0.3.0-beta02"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout" }
+androidx-compose-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+
+vitamin-xml = { group = "com.decathlon.vitamin", name = "vitamin", version.ref = "vitamin-xml" }
+vitamin-compose = { group = "com.decathlon.vitamin.compose", name = "vitamin", version.ref = "vitamin-compose" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[bundles]
+

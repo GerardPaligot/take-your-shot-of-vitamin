@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.Takeyourshotofvitamin" parent="Theme.Vitamin.DayNight" />
+</resources>
